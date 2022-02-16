@@ -15,5 +15,5 @@ for i in page_goods:
 
     item_dict[item_name] = item_price
 
-with open("videocards", "w", encoding="utf-8") as file:
+with open("videocards.html", "w", encoding="utf-8") as file:
     json.dump(item_dict, file, indent=4, ensure_ascii=False)
